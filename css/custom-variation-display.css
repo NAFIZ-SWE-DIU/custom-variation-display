@@ -16,11 +16,11 @@
 }
 
 .cvd-color-swatch:hover {
-    border-color: #000; /* Change to your desired hover color */
+    border-color: #000; /* Change to desired hover color */
 }
 
 .cvd-color-swatch.selected {
-    border-color: #ff0000; /* Change to your desired selected color */
+    border-color: #ff0000; /* Change to desired selected color */
 }
 
 /* Style for size selection */
