@@ -1,0 +1,58 @@
+/* Style for color swatches */
+.cvd-color-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.cvd-color-swatch {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.cvd-color-swatch:hover {
+    border-color: #000; /* Change to your desired hover color */
+}
+
+.cvd-color-swatch.selected {
+    border-color: #ff0000; /* Change to your desired selected color */
+}
+
+/* Style for size selection */
+.cvd-size-select {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block; /* Add this to keep the dropdown inline with the label */
+    vertical-align: middle; /* Align the dropdown vertically with the label */
+}
+
+.cvd-size-select option {
+    padding: 5px;
+}
+
+/* Additional styling for the product image */
+.product-image {
+    margin-top: 20px;
+}
+
+/* Style for dynamic price */
+.dynamic-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .cvd-color-swatch,
+    .cvd-size-select,
+    .dynamic-price {
+        margin-top: 5px;
+    }
+}
