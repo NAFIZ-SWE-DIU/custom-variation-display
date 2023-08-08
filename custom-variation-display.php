@@ -73,7 +73,7 @@ function custom_variation_display_change_image_on_color_click() {
                 // Change the main product image based on the selected color variation
                 if (variationId > 0) {
                     var selectedColor = get_selected_color_from_variation_id(variationId); // Implement a function to get the color based on variation ID
-                    var selectedImage = 'path/to/your/images/' + selectedColor + '-shirt.jpg'; // Adjust the path
+                    var selectedImage = 'path/to/images/' + selectedColor + '-shirt.jpg'; // Adjust the path
                     
                     $('.product .woocommerce-product-gallery__image img').attr('src', selectedImage);
                 }
@@ -200,7 +200,7 @@ add_action('woocommerce_settings_tabs_product', 'custom_variation_display_settin
 
 
 
-// Initialize your custom setting
+// Initialize custom setting
 function custom_variation_display_init_setting() {
     $option_name = 'enable_custom_variation_display';
     
