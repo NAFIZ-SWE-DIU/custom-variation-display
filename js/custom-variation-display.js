@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
     // Color Swatch Click Event
     $('.color-swatch').on('click', function() {
         var selectedColor = $(this).data('color');
-        var selectedImage = 'path/to/your/images/' + selectedColor + '-shirt.jpg'; // Adjust the path
+        var selectedImage = 'path/to/images/' + selectedColor + '-shirt.jpg'; // Adjust the path
         
         $('.color-swatch').removeClass('selected');
         $(this).addClass('selected');
